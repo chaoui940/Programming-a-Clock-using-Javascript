@@ -9,7 +9,7 @@ let evening;
 let showCurrentTime = function () {
 	// display the string time on page
 	let clock =document.getElementById('clock');
-	let currentTime = new Date();
+	let currentTime = new Date()
 
 	let hours =currentTime.getHours();
 	let minutes =currentTime.getMinutes();
