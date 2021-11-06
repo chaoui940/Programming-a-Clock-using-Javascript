@@ -14,7 +14,7 @@ let showCurrentTime = function () {
 	let hours =currentTime.getHours();
 	let minutes =currentTime.getMinutes();
 	let seconds = currentTime.getSeconds();
-	let merdian = "AM"
+	let meridian = "AM"
 	// set hours 
 	if (hours >= noon) { meridian = "PM" ; }
 	if (hours > noon) { hours = hours - 12 ; }

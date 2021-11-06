@@ -17,3 +17,9 @@ h4 {
 	font-size: 21px;
 	font-family: 'Bungee', cursive; 
 }
+
+h4 #clock {
+  font-size: 36px;
+  display: block;
+  padding: 5px 0px;
+}
