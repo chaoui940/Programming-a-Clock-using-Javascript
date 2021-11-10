@@ -27,3 +27,8 @@ let showCurrentTime = function () {
 	let clockTime = hours + ':' + minutes + ':' + seconds + " " + meridian + "!";
 	clock.innerText = clockTime;
 }
+showCurrentTime();
+
+let refresh = 1000;
+setInterval( showCurrentTime, refresh);
+
